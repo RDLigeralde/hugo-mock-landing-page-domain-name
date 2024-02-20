@@ -12,7 +12,7 @@ noindex: true
 ---
 
 ![Bootstrap 5 2 0 Beta](Contributions.webp)
-{ .img-fluid }
+
 
 > A thank-you to all our amazing musical contributors as we head into the Spring season! Last month, we broke our all-time record for user contributions, with over **3,000** new albums, EPs, and singles documented on Muse. 
 

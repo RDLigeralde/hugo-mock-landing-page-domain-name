@@ -1,19 +1,19 @@
 ---
-title: "Bootstrap 5.2.0 beta"
-description: "It’s the biggest release since v5 itself—Bootstrap v5.2.0-beta1 is here!"
+title: "State of the Community 02/2024"
+description: "A thank-you to all our amazing musical contributors as we head into the Spring season!"
 date: 2022-05-13T13:00:44+01:00
 draft: false
-images: ["bootstrap-5-2-0-beta.png"]
+images: ["Contributions.webp"]
 categories: ["The Bootstrap Blog"]
 tags: ["Bootstrap"]
 keywords: ["bootstrap 5 2 0 beta","bootstrap 5","bootstrap"]
-authors: ["Mark Otto"]
+authors: ["Muse Community Moderators"]
 noindex: true
 ---
 
-![Bootstrap 5 2 0 Beta](bootstrap-5-2-0-beta.png)
+![Bootstrap 5 2 0 Beta](Contributions.webp)
 { .img-fluid }
 
-> It’s the biggest release since v5 itself—**Bootstrap v5.2.0-beta1 is here!** This release features redesigned docs, CSS variables for all our components, responsive offcanvas, new helpers and utilities, refined buttons and inputs, and lots of improvements under the hood.
+> A thank-you to all our amazing musical contributors as we head into the Spring season! Last month, we broke our all-time record for user contributions, with over **3,000** new albums, EPs, and singles documented on Muse. 
 
-Given the size of the update and time since our last release, we’re doing something different and shipping it as a beta first. [Keep reading for details](https://blog.getbootstrap.com/2022/05/13/bootstrap-5-2-0-beta/).
+Congratulations to the winners of the January Top Contributer award: **SkiiBaller** and **LongNamesAreWack**, who will be receiving six months of **Muse Pro** free of charge.

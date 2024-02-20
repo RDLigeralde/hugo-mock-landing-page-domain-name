@@ -1,6 +1,6 @@
 ---
-title: "Markdown Cheat Sheet Ⓜ️⬇️"
-description: "An overview of basic markdown syntax."
+title: "Harmonizer, Explained"
+description: "An overview of our matching algorithm"
 draft: false
 tags: ["Featured"]
 images: ["markdown-guide-og.jpg"]
@@ -9,208 +9,29 @@ aliases:
   - blog/my-third-blog-post
 ---
 
-# Markdown Cheat Sheet
 
-Hugo has excellent Markdown support out of the box. By default, Hugo uses the [Goldmark Markdown processor](https://github.com/yuin/goldmark/) which is fully CommonMark-compliant. See the [configuration instructions](https://gohugo.io/getting-started/configuration-markup/) to learn more about the extensions you can configure.
+One of the most common questions we receive at Muse is how exactly our Harmonizer service functions. While we don't intend to give away all of our company secrets quite yet (¯\\\_(ツ)_/¯), in the interest of transparency we've decided to provide a brief overview of the approach our algorithm takes to find your future listening partners.
 
-## Overview
+## Step 1: Gathering User Data
 
-You can refer to the table below for an overview of basic markdown syntax:
+The first step involves collecting data on users' listening habits. This includes the tracks they play, the ratings they assign to songs, and their heavily researched artists and genres. Each action contributes to a comprehensive profile that encapsulates a user's musical preferences.
 
-| TASK           | MARKDOWN SYNTAX                  |
-| -------------- | -------------------------------- |
-| Heading 1      | `#`                              |
-| Heading 2      | `##`                             |
-| Heading 3      | `###`                            |
-| Italics        | `*italics*`                      |
-| Bold           | `**Bold**`                       |
-| Strike         | `~~strike~~`                     |
-| Blockquote     | `>`                              |
-| Links          | `[link name](https://link.com)`  |
-| Images         | `![Image name](image.png)`       |
-| Unordered list | `* List item`                    |
-| Ordered list   | `1. List item`                   |
-| Inline Code    | <code>\`insert code here\`<code> |
-{.table .table-sm .table-striped .table-hover}
+## Step 2: Feature Extraction
 
----
+From the amassed data, the algorithm extracts key features that represent each user's taste. These features might include favored genres, frequently played artists, and highly rated tracks. Advanced techniques such as Natural Language Processing (NLP) are also be employed to analyze user reviews and comments for additional insights into their preferences.
 
-## Headings
+## Step 3: Similarity Measurement
 
-```markdown
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
-```
+With these features at hand, the algorithm calculates the similarity between users using metrics like cosine similarity or Pearson correlation (our exact metric is a secret 😉). These mathematical frameworks assess the closeness of users' musical tastes, outputting a similarity score that quantifies their compatibility.
 
-# Heading 1
+## Step 4: User Matching
 
-## Heading 2
+Based on similarity scores, the algorithm then identifies and matches users with comparable music interests. This process involves setting a similarity threshold; only users whose scores exceed this threshold are deemed compatible matches.
 
-### Heading 3
+## Step 5: Continuous Learning
 
-#### Heading 4
+The algorithm isn't static; it learns and evolves. As users interact with the platform—rating more songs, exploring new genres—their profiles are updated, and the matching process is periodically re-run. In particular, we refine a user's matches by tracking what types of listeners among their matches they interact with the most-this tells us where our algorithm was most successful. This ensures that the matches remain relevant and reflect users' current musical inclinations.
 
-##### Heading 5
+## Final Thoughts
 
-###### Heading 6
-
----
-
-## Lists
-
-```markdown
-* Unordered item
-* Unordered item
-* Unordered item
-
-1. Ordered item
-2. Ordered item
-3. Ordered item
-
-- [ ] Task item
-- [x] Checked Task item
-- [ ] Task item
-```
-
-* Unordered item
-* Unordered item
-* Unordered item
-
-1. Ordered item
-2. Ordered item
-3. Ordered item
-
-- [ ] Task item
-- [x] Checked Task item
-- [ ] Task item
-
----
-
-## Format
-
-```markdown
-**Bold**
-
-*Italic*
-
-<u>Underline</u>
-
-<sup>Superscript</sup>
-
-<sub>Subscript</sub>
-
-<mark>Highlight</mark>
-
-`Inline code`
-
-~~Strikethrough~~
-
-[Hyperlink](http://example.com)
-
-![Image](placeholder-50-09f-fff.png)
-{ .img-fluid }
-```
-
-**Bold**
-
-*Italic*
-
-<u>Underline</u>
-
-<sup>Superscript</sup>
-
-<sub>Subscript</sub>
-
-<mark>Highlight</mark>
-
-`Inline code`
-
-~~Strikethrough~~
-
-[Hyperlink](http://example.com)
-
-![Image](placeholder-50-09f-fff.png)
-{ .img-fluid }
-
----
-
-## Table
-
-```markdown
-| Header 1 | Header 2 |
-| -------- | -------- |
-| Cell 1   | Cell 2   |
-| Cell 3   | Cell 4   |
-```
-
-| Header 1 | Header 2 |
-| -------- | -------- |
-| Cell 1   | Cell 2   |
-| Cell 3   | Cell 4   |
-
----
-
-## Blockquote
-
-```markdown
-> Blockquote  
-> Second line
-> 
->  -- Author
-```
-
-> Blockquote  
-> Second line
-> 
->  -- Author
-
----
-
-## Code Block
-
-`````
-```go
-package main
-
-import "fmt"
-
-func main() {
-    fmt.Println("hello world")
-}
-```
-`````
-
-```go
-package main
-
-import "fmt"
-
-func main() {
-    fmt.Println("hello world")
-}
-```
-
----
-
-## HTML
-
-```markdown
-<div>
-    <p>Hello world</p>
-</div>
-```
-
-<div>
-    <p>Hello world</p>
-</div>
-
----
-
-## See also
-
-- [Hugo Markdown Reference](https://www.markdownguide.org/tools/hugo/)
-- [Bootstrap Typography](https://getbootstrap.com/docs/5.3/content/typography/)
+Our algorithm's ability to connect users through music hinges on a deep understanding of their preferences, sophisticated feature extraction, and robust similarity metrics. By continually learning from user interactions, the platform fosters a dynamic community of music enthusiasts, united by shared tastes and the joy of discovery.

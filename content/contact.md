@@ -8,4 +8,8 @@ menu:
 
 # Contact
 
-[Open an issue](https://github.com/filipecarneiro/hugo-bootstrap-theme/issues/new) on GitHub.
+[Open an issue](https://github.com/RDLigeralde/hugo-mock-landing-page) on GitHub.\
+\
+Email: rdligeralde@gmail.com\
+\
+Phone: (513)-913-9266

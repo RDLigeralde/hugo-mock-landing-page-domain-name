@@ -17,3 +17,5 @@ noindex: true
 > A thank-you to all our amazing musical contributors as we head into the Spring season! Last month, we broke our all-time record for user contributions, with over **3,000** new albums, EPs, and singles documented on Muse. 
 
 Congratulations to the winners of the January Top Contributer award: **SkiiBaller** and **LongNamesAreWack**, who will be receiving six months of **Muse Pro** free of charge.
+
+**UPDATE 03/19/24:** Stay tuned for news on next round of the contribution context ;)

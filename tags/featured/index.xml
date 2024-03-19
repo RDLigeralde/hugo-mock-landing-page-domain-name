@@ -1,19 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Featured on Muse</title>
-    <link>https://RDLigeralde.github.io/hugo-mlp/tags/featured/</link>
-    <description>Recent content in Featured on Muse</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Roberto Ligeralde</copyright>
-    <atom:link href="https://RDLigeralde.github.io/hugo-mlp/tags/featured/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Harmonizer, Explained</title>
-      <link>https://RDLigeralde.github.io/hugo-mlp/page/markdown-cheat-sheet/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://RDLigeralde.github.io/hugo-mlp/page/markdown-cheat-sheet/</guid>
-      <description>One of the most common questions we receive at Muse is how exactly our Harmonizer service functions. While we don&amp;rsquo;t intend to give away all of our company secrets quite yet (¯\_(ツ)_/¯), in the interest of transparency we&amp;rsquo;ve decided to provide a brief overview of the approach our algorithm takes to find your future listening partners.&#xA;Step 1: Gathering User Data The first step involves collecting data on users&amp;rsquo; listening habits.</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Featured on Muse</title><link>https://RDLigeralde.github.io/hugo-mock-landing-page-autodeployed/tags/featured/</link><description>Recent content in Featured on Muse</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Roberto Ligeralde</copyright><atom:link href="https://RDLigeralde.github.io/hugo-mock-landing-page-autodeployed/tags/featured/index.xml" rel="self" type="application/rss+xml"/><item><title>Harmonizer, Explained</title><link>https://RDLigeralde.github.io/hugo-mock-landing-page-autodeployed/page/markdown-cheat-sheet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://RDLigeralde.github.io/hugo-mock-landing-page-autodeployed/page/markdown-cheat-sheet/</guid><description>One of the most common questions we receive at Muse is how exactly our Harmonizer service functions. While we don&amp;rsquo;t intend to give away all of our company secrets quite yet (¯\_(ツ)_/¯), in the interest of transparency we&amp;rsquo;ve decided to provide a brief overview of the approach our algorithm takes to find your future listening partners.
+Step 1: Gathering User Data The first step involves collecting data on users&amp;rsquo; listening habits.</description></item></channel></rss>
